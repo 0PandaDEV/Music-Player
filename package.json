@@ -1,5 +1,5 @@
 {
-  "name": "music-player",
+  "name": "Melodiax",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -12,7 +12,8 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "d": "tauri dev",
+    "b": "yarn build",
+    "d": "yarn tauri dev",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",

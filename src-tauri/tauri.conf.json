@@ -7,7 +7,7 @@
     "distDir": "../build"
   },
   "package": {
-    "productName": "music-player",
+    "productName": "Melodiax",
     "version": "0.1.0"
   },
   "tauri": {
@@ -56,10 +56,12 @@
     "windows": [
       {
         "fullscreen": false,
-        "height": 600,
+        "minHeight": 500,
+        "minWidth": 1000,
+        "height": 720,
         "resizable": true,
-        "title": "music-player",
-        "width": 800
+        "title": "Melodiax",
+        "width": 1280
       }
     ]
   }
